@@ -1,5 +1,5 @@
 {
-  "name": "immutable-aa-tree",
+  "name": "plain-aa-tree",
   "version": "1.0.0",
   "description": "AA Tree as immutable, json-serializable and usable on Redux state (^_^)",
   "author": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sankaku-deltalab/immutable-aa-tree.git"
+    "url": "git://github.com/sankaku-deltalab/plain-aa-tree.git"
   },
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",

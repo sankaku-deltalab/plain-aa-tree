@@ -13,5 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release.
 
-[unreleased]: https://github.com/sankaku-deltalab/immutable-aa-tree/compare/1.0.0...HEAD
-[1.0.0]: https://github.com/sankaku-deltalab/immutable-aa-tree/releases/tag/1.0.0
+[unreleased]: https://github.com/sankaku-deltalab/plain-aa-tree/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/sankaku-deltalab/plain-aa-tree/releases/tag/1.0.0

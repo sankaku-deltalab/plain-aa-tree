@@ -7,13 +7,13 @@ API is referenced [Elixir's Map](https://hexdocs.pm/elixir/1.12/Map.html).
 ## Install
 
 ```bash
-npm install immutable-aa-tree
+npm install plain-aa-tree
 ```
 
 ## Usage
 
 ```typescript
-import {AaTree, TAaTree} from 'immutable-aa-tree';
+import {AaTree, TAaTree} from 'plain-aa-tree';
 
 type Key = string;
 type Value = {val: number};
