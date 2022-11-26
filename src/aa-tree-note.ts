@@ -8,5 +8,4 @@ export type AaTreeNode<K, V> = {
 
 export type NodeMethods<K> = {
   compareKey: (keyA: K, keyB: K) => number;
-  equalKey: (keyA: K, keyB: K) => boolean;
 };
