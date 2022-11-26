@@ -1,14 +1,22 @@
 {
-  "name": "",
-  "version": "0.0.0",
-  "description": "",
+  "name": "immutable-aa-tree",
+  "version": "1.0.0",
+  "description": "AA Tree as immutable, json-serializable and usable on Redux state (^_^)",
+  "author": {
+    "name": "Sankaku",
+    "email": "sankaku_dlt.45631@outlook.jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sankaku-deltalab/immutable-aa-tree.git"
+  },
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "files": [
     "build/src"
   ],
   "license": "Apache-2.0",
-  "keywords": [],
+  "keywords": ["functional", "balanced tree", "binary search tree", "tree", "aa tree", "data structure", "serializable"],
   "scripts": {
     "test": "jest --coverage",
     "lint": "gts lint",
