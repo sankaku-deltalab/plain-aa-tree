@@ -16,7 +16,7 @@ export class Split {
     if (top.level === right.right.level) {
       const newLeft: AaTreeNode<K, V> = {
         ...top,
-        right: top.left,
+        right: right.left,
       };
       const newTop: AaTreeNode<K, V> = {
         ...right,
