@@ -47,3 +47,58 @@ tree = TAaTree.delete(tree, 'key_not_exists'); // do nothing
 const treeJson = JSON.stringify(tree);
 tree = JSON.parse(treeJson);
 ```
+
+# Benchmark
+
+```bash
+npx ts-node ./benchmark.ts
+```
+
+results in my env:
+```
+items: 50000
+aatree --------
+add: 369 ms
+fetch: 91 ms
+delete: 621 ms
+builtin record --------
+add: 5655 ms
+fetch: 3 ms
+delete: 9453 ms
+immutable.js Map --------
+add: 70 ms
+fetch: 19 ms
+delete: 50 ms
+```
+
+```
+items: 5000
+aatree --------
+add: 45 ms
+fetch: 10 ms
+delete: 60 ms
+builtin record --------
+add: 16 ms
+fetch: 0 ms
+delete: 30 ms
+immutable.js Map --------
+add: 19 ms
+fetch: 6 ms
+delete: 10 ms
+```
+
+```
+items: 500
+aatree --------
+add: 16 ms
+fetch: 1 ms
+delete: 6 ms
+builtin record --------
+add: 0 ms
+fetch: 0 ms
+delete: 3 ms
+immutable.js Map --------
+add: 3 ms
+fetch: 0 ms
+delete: 1 ms
+```
