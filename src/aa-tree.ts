@@ -18,10 +18,10 @@ export type AaTree<Type extends TreeKeyType, K extends KeyType<Type>, V> = {
 
 export class TAaTree {
   static nodeMethodsForNumber: NodeMethods<number> = {
-    compareKey: (keyA, keyB) => keyB - keyA,
+    compareKey: (keyL, keyR) => keyL - keyR,
   };
   static nodeMethodsForString: NodeMethods<string> = {
-    compareKey: (keyA, keyB) => keyA.localeCompare(keyB),
+    compareKey: (keyL, keyR) => keyL.localeCompare(keyR),
   };
 
   static new<Type extends TreeKeyType, K extends KeyType<Type>, V>(
@@ -118,7 +118,7 @@ export class TAaTree {
       key,
       methods,
     });
-    const sizeDiff = removed === undefined ? -1 : 0;
+    const sizeDiff = removed === undefined ? 0 : -1;
 
     return {
       ...tree,
@@ -137,7 +137,7 @@ export class TAaTree {
       key,
       methods,
     });
-    const sizeDiff = removed === undefined ? -1 : 0;
+    const sizeDiff = removed === undefined ? 0 : -1;
 
     const newTree: AaTree<Type, K, V> = {
       ...tree,
