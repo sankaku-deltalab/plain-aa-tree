@@ -1,4 +1,4 @@
-import {AaTreeNode} from '../aa-tree-note';
+import {AaTreeNode} from '../aa-tree-node';
 
 export class Split {
   static split(top: undefined): undefined;

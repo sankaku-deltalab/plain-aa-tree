@@ -1,4 +1,4 @@
-import {AaTreeNode} from '../aa-tree-note';
+import {AaTreeNode} from '../aa-tree-node';
 
 export class DecreaseLevel {
   static decreaseLevel<K, V>(top: AaTreeNode<K, V>): AaTreeNode<K, V> {

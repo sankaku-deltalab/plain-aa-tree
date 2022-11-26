@@ -1,5 +1,5 @@
 import {TAaTree} from '../../src/aa-tree';
-import {AaTreeNode} from '../../src/aa-tree-note';
+import {AaTreeNode} from '../../src/aa-tree-node';
 
 describe('TAaTree.pop', (): void => {
   test('return item in tree', (): void => {

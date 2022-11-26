@@ -1,4 +1,4 @@
-import {AaTreeNode, NodeMethods} from './aa-tree-note';
+import {AaTreeNode, NodeMethods} from './aa-tree-node';
 import {Fetch} from './note-functions/fetch';
 import {Iter} from './note-functions/iter';
 import {pop} from './note-functions/pop';

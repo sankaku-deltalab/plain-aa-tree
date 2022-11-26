@@ -1,4 +1,4 @@
-import {AaTreeNode, NodeMethods} from '../aa-tree-note';
+import {AaTreeNode, NodeMethods} from '../aa-tree-node';
 import {Skew} from './skew';
 import {Split} from './split';
 

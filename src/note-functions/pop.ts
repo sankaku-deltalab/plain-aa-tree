@@ -1,4 +1,4 @@
-import {AaTreeNode, NodeMethods} from '../aa-tree-note';
+import {AaTreeNode, NodeMethods} from '../aa-tree-node';
 import {DecreaseLevel} from './decrease_level';
 import {GetPredecessor} from './get-predecessor';
 import {GetSuccessor} from './get-successor';

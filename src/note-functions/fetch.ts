@@ -1,4 +1,4 @@
-import {AaTreeNode, NodeMethods} from '../aa-tree-note';
+import {AaTreeNode, NodeMethods} from '../aa-tree-node';
 
 export class Fetch {
   static fetch<K, V>(

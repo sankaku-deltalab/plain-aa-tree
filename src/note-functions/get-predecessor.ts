@@ -1,4 +1,4 @@
-import {AaTreeNode} from '../aa-tree-note';
+import {AaTreeNode} from '../aa-tree-node';
 
 export class GetPredecessor {
   static getPredecessor<K, V>(leftOfTop: AaTreeNode<K, V>): AaTreeNode<K, V> {

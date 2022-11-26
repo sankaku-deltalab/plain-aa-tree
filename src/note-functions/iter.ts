@@ -1,4 +1,4 @@
-import {AaTreeNode} from '../aa-tree-note';
+import {AaTreeNode} from '../aa-tree-node';
 
 export class Iter {
   static iter<K, V>(

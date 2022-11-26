@@ -1,4 +1,4 @@
-import {AaTreeNode} from '../aa-tree-note';
+import {AaTreeNode} from '../aa-tree-node';
 
 export class Skew {
   static skew(top: undefined): undefined;
