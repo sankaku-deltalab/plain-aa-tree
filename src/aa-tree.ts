@@ -1,5 +1,6 @@
 import {AaTreeNode, NodeMethods} from './aa-tree-note';
 import {Fetch} from './note-functions/fetch';
+import {Iter} from './note-functions/iter';
 import {pop} from './note-functions/pop';
 import {put, putResults} from './note-functions/put';
 
@@ -147,5 +148,13 @@ export class TAaTree {
       tree: newTree,
       removed: removed === undefined ? def : removed.value,
     };
+  }
+
+  static iter<Type extends TreeKeyType, K extends KeyType<Type>, V>(
+    tree: AaTree<Type, K, V>
+  ): [K, V][] {
+    const r: [K, V][] = [];
+    Iter.iter(tree.root, r);
+    return r;
   }
 }
